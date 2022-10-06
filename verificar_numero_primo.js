@@ -4,6 +4,7 @@ let arrNaoPrimo = [];
 
 for(let i = 2; i <= numero; i++) {
     regraPrimo = (numero%i != 0 && numero != i);
+
     if(!regraPrimo && numero != i) {
         arrNaoPrimo.push(i);
     }
